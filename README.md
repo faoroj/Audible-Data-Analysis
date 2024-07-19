@@ -13,6 +13,34 @@ Welcome to my Audible Audiobook Trends Portfolio Project! In this project, I ana
 
 The focus of this project is to delve into the trends and dynamics of Audible audiobooks over time. By examining various aspects such as popular audiobooks, notable authors, pricing patterns, and user ratings, I aim to provide in-depth insights into the audiobook market. This analysis will shed light on the factors influencing the success of audiobooks and the evolving preferences of listeners. 
 
+
+## Project Structure
+
+    ├── LICENSE
+    ├── README.md          <- README for using this project.
+    ├── query              <- Code of the DB creation and queries.
+    │   │
+    │   └── pizza_sales_db.sql       <- DB creation.
+    │   └── query.sql                <- Final queries.
+
+    ├── reports            <- Folder containing the final reports/results of this project.
+    │   │
+    │   └── Pizza_Sales_Report.pdf   <- Final analysis report in PDF.
+    │   └── query_report.pdf         <- Final query report in PDF for verifying data.
+    │   
+    ├── src                <- Source for this project.
+        │
+        ├── data           <- Datasets used and collected for this project.
+        │   
+        ├── pizza_sales_images       <- Additional images for Dashboards.
+        │
+        ├── data_dictionary.csv      <- Data Dictionary for the dataset.
+
+
+
+
+
+
 In this file:
 
 Data Cleaning and Preparation
