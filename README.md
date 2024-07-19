@@ -70,4 +70,4 @@ The project's visual appeal is of utmost importance, and I present the findings 
 
 
 ## Contact me!
-If you have any questions or suggestions, you can reach out to me at [Tushar Aggarwal](mailto:jfaoro15@gmail.com). I would love to hear from you!
+If you have any questions or suggestions, you can reach out to me at [Jordon Faoro](mailto:jfaoro15@gmail.com). I would love to hear from you!
