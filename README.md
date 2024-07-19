@@ -37,7 +37,7 @@ The focus of this project is to delve into the trends and dynamics of Audible au
         ├── data_dictionary.csv      <- Data Dictionary for the dataset.
 
 
-**Data Cleaning and Preprocessing**
+##Data Cleaning and Preprocessing
 
 Raw data is seldom ready for analysis, and this project was no exception. Before diving into the exploration, I meticulously cleaned and preprocessed the data, addressing missing values, outliers, and inconsistencies. The resulting dataset lays the foundation for robust and meaningful analysis.
 
