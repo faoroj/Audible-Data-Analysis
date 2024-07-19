@@ -64,7 +64,7 @@ The project's visual appeal is of utmost importance, and I present the findings 
 
 
 ## Author
-- <ins><b>©2023 Tushar Aggarwal. All rights reserved</b></ins>
+- <ins><b>©2024 Jordon Faoro. All rights reserved</b></ins>
 - <b>[LinkedIn](https://www.linkedin.com/in/jordanfaoro/)</b>
 - <b>[Tableau](https://public.tableau.com/app/profile/jordon.faoro/vizzes)</b> 
 
