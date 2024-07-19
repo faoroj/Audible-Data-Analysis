@@ -37,12 +37,37 @@ The focus of this project is to delve into the trends and dynamics of Audible au
         ├── data_dictionary.csv      <- Data Dictionary for the dataset.
 
 
+**Data Cleaning and Preprocessing**
+
+Raw data is seldom ready for analysis, and this project was no exception. Before diving into the exploration, I meticulously cleaned and preprocessed the data, addressing missing values, outliers, and inconsistencies. The resulting dataset lays the foundation for robust and meaningful analysis.
+
+**Exploratory Data Analysis (EDA)**
+
+EDA is an essential step in uncovering patterns and relationships within the data. Through visualizations, graphs, and statistical summaries, I reveal significant trends and correlations, offering a comprehensive understanding of the international debt landscape.
 
 
+**Insights and Conclusions**
+
+Based on the findings from the analysis, I present a series of critical insights and conclusions. These conclusions are designed to offer a deeper understanding of the international debt scenario and its implications for various stakeholders.
+
+**Visualizations and Reports**
+
+The project's visual appeal is of utmost importance, and I present the findings through interactive visualizations, charts, and dashboards. In addition, I have prepared a comprehensive report that documents every step of my analysis, making it easier for others to comprehend and reproduce the process.
 
 
-In this file:
+## Key Questions Explored
 
-Data Cleaning and Preparation
+1. **TWho do we owe all this money to?**
+2. **Can a debt load of three times GDP ever be sustainable?**
+3. **Is ther any responsible way to reduce this debt?**
+4. **What could go wrong if we can't**
 
-Exploratory Data Analysis
+
+## Author
+- <ins><b>©2023 Tushar Aggarwal. All rights reserved</b></ins>
+- <b>[LinkedIn](https://www.linkedin.com/in/jordanfaoro/)</b>
+- <b>[Tableau](https://public.tableau.com/app/profile/jordon.faoro/vizzes)</b> 
+
+
+## Contact me!
+If you have any questions or suggestions, you can reach out to me at [Tushar Aggarwal](mailto:jfaoro15@gmail.com). I would love to hear from you!
