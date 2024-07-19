@@ -18,7 +18,7 @@ The focus of this project is to delve into the trends and dynamics of Audible au
 
     ├── LICENSE
     ├── README.md          <- README for using this project.
-    ├── query              <- Code of the DB creation and queries.
+    ├── Data             <- Code of the DB creation and queries.
     │   │
     │   └── pizza_sales_db.sql       <- DB creation.
     │   └── query.sql                <- Final queries.
