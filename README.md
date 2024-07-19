@@ -25,10 +25,10 @@ The focus of this project is to delve into the trends and dynamics of Audible au
 
     ├── src            <- Folder containing the final SQL code of this project.
     │   │
-    │   └── Pizza_Sales_Report.pdf   <- Final SQL code for cleaning & EDA
-    │   └── query_report.pdf         <- Final query report in PDF for verifying data.
+    │   └── AudibleData_Project.sql   <- Final SQL code for cleaning & EDA
+    │          
     │   
-    ├── Visualizations               <- Source for this project.
+    ├── Visualizations               <- Visualization images for this project.
         │
         ├── data           <- Datasets used and collected for this project.
         │   
