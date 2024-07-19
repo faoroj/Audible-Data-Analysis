@@ -4,7 +4,7 @@ This is the main read-me file which contains all the information about the proje
 
 This readme.md file will act as an information file:
 
-There is one file attached to the repository which act as a single file for the SQL code.
+There is one file attached to the repository which acts as a single file for the SQL code.
 
 In this file:
 
