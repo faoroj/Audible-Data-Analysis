@@ -17,18 +17,18 @@ The focus of this project is to delve into the trends and dynamics of Audible au
 ## Project Structure
 
     ├── LICENSE
-    ├── README.md          <- README for using this project.
+    ├── README.md        <- README for using this project.
     ├── Data             <- Code of the DB creation and queries.
     │   │
     │   └── audible_uncleaned.csv      <- Raw data uncleaned
-    │   └── audibleexport.csv               <- Cleaned data export for tableau.
+    │   └── audibleexport.csv          <- Cleaned data export for tableau.
 
-    ├── reports            <- Folder containing the final reports/results of this project.
+    ├── src            <- Folder containing the final SQL code of this project.
     │   │
-    │   └── Pizza_Sales_Report.pdf   <- Final analysis report in PDF.
+    │   └── Pizza_Sales_Report.pdf   <- Final SQL code for cleaning & EDA
     │   └── query_report.pdf         <- Final query report in PDF for verifying data.
     │   
-    ├── src                <- Source for this project.
+    ├── Visualizations               <- Source for this project.
         │
         ├── data           <- Datasets used and collected for this project.
         │   
