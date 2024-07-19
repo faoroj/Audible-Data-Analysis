@@ -11,7 +11,7 @@ Welcome to my Audible Audiobook Trends Portfolio Project! In this project, I ana
 
 ### **Project Scope**
 
-The focus of this project is to delve into the trends and dynamics of Audible audiobooks over time. By examining various aspects such as popular audiobooks, notable authors, pricing patterns, and user ratings, I aim to provide in-depth insights into the audiobook market. This analysis will shed light on the factors influencing the success of audiobooks and the evolving preferences of listeners. 
+The focus of this project is to delve into the trends and dynamics of Audible audiobooks over time. By examining various aspects such as popular audiobooks, notable authors, pricing patterns, and user ratings, I aim to provide in-depth insights into the audiobook market. This analysis will shed light on the factors influencing audiobooks' success and listeners' evolving preferences. 
 
 
 ## Project Structure
@@ -39,11 +39,12 @@ The focus of this project is to delve into the trends and dynamics of Audible au
 
 ## Data Cleaning and Preprocessing
 
-Raw data is seldom ready for analysis, and this project was no exception. Before diving into the exploration, I meticulously cleaned and preprocessed the data, addressing missing values, outliers, and inconsistencies. The resulting dataset lays the foundation for robust and meaningful analysis.
+Before beginning exploration, I cleaned and preprocessed the data, addressing missing values/nulls, and inconsistencies, converted the prices from IDR to USD, appropriately split the ratings and stars given into their columns, updated the date formatting, and removed the unnecessary information in the author and narrator columns.
+
 
 ## Exploratory Data Analysis (EDA)
 
-EDA is an essential step in uncovering patterns and relationships within the data. Through visualizations, graphs, and statistical summaries, I reveal significant trends and correlations, offering a comprehensive understanding of the international debt landscape.
+EDA is an essential step in uncovering patterns and relationships within the data. I reveal significant trends and correlations through visualizations and statistical summaries, offering a comprehensive understanding of the audiobook market overtime.
 
 
 ## Insights and Conclusions
@@ -52,7 +53,7 @@ Based on the findings from the analysis, I present a series of critical insights
 
 ## Visualizations and Reports
 
-The project's visual appeal is of utmost importance, and I present the findings through interactive visualizations, charts, and dashboards. In addition, I have prepared a comprehensive report that documents every step of my analysis, making it easier for others to comprehend and reproduce the process.
+I've presented the findings through interactive visualizations, charts, and dashboards made in Tableau. 
 
 
 ## Key Questions Explored
