@@ -1,276 +1,3 @@
-{
-  "nbformat": 4,
-  "nbformat_minor": 0,
-  "metadata": {
-    "colab": {
-      "name": "Movie Recommendation MovieLens Dataset .ipynb",
-      "provenance": [],
-      "collapsed_sections": [],
-      "authorship_tag": "ABX9TyMnlhM1+lFB+bkNzhhmmyQ6"
-    },
-    "kernelspec": {
-      "name": "python3",
-      "display_name": "Python 3"
-    },
-    "widgets": {
-      "application/vnd.jupyter.widget-state+json": {
-        "88dbbf1b744343cba20d90e777f7e5f1": {
-          "model_module": "@jupyter-widgets/controls",
-          "model_name": "HBoxModel",
-          "state": {
-            "_view_name": "HBoxView",
-            "_dom_classes": [],
-            "_model_name": "HBoxModel",
-            "_view_module": "@jupyter-widgets/controls",
-            "_model_module_version": "1.5.0",
-            "_view_count": null,
-            "_view_module_version": "1.5.0",
-            "box_style": "",
-            "layout": "IPY_MODEL_f690dfb1fa1348f88299fee6f16cc080",
-            "_model_module": "@jupyter-widgets/controls",
-            "children": [
-              "IPY_MODEL_6b2739ce8ac34fbe90c47555d217f30a",
-              "IPY_MODEL_239c8e6712d149cfaa6f0ce450a0f9c9"
-            ]
-          }
-        },
-        "f690dfb1fa1348f88299fee6f16cc080": {
-          "model_module": "@jupyter-widgets/base",
-          "model_name": "LayoutModel",
-          "state": {
-            "_view_name": "LayoutView",
-            "grid_template_rows": null,
-            "right": null,
-            "justify_content": null,
-            "_view_module": "@jupyter-widgets/base",
-            "overflow": null,
-            "_model_module_version": "1.2.0",
-            "_view_count": null,
-            "flex_flow": null,
-            "width": null,
-            "min_width": null,
-            "border": null,
-            "align_items": null,
-            "bottom": null,
-            "_model_module": "@jupyter-widgets/base",
-            "top": null,
-            "grid_column": null,
-            "overflow_y": null,
-            "overflow_x": null,
-            "grid_auto_flow": null,
-            "grid_area": null,
-            "grid_template_columns": null,
-            "flex": null,
-            "_model_name": "LayoutModel",
-            "justify_items": null,
-            "grid_row": null,
-            "max_height": null,
-            "align_content": null,
-            "visibility": null,
-            "align_self": null,
-            "height": null,
-            "min_height": null,
-            "padding": null,
-            "grid_auto_rows": null,
-            "grid_gap": null,
-            "max_width": null,
-            "order": null,
-            "_view_module_version": "1.2.0",
-            "grid_template_areas": null,
-            "object_position": null,
-            "object_fit": null,
-            "grid_auto_columns": null,
-            "margin": null,
-            "display": null,
-            "left": null
-          }
-        },
-        "6b2739ce8ac34fbe90c47555d217f30a": {
-          "model_module": "@jupyter-widgets/controls",
-          "model_name": "FloatProgressModel",
-          "state": {
-            "_view_name": "ProgressView",
-            "style": "IPY_MODEL_01a7d8fb972a446da32978918ca9caff",
-            "_dom_classes": [],
-            "description": "100%",
-            "_model_name": "FloatProgressModel",
-            "bar_style": "success",
-            "max": 50,
-            "_view_module": "@jupyter-widgets/controls",
-            "_model_module_version": "1.5.0",
-            "value": 50,
-            "_view_count": null,
-            "_view_module_version": "1.5.0",
-            "orientation": "horizontal",
-            "min": 0,
-            "description_tooltip": null,
-            "_model_module": "@jupyter-widgets/controls",
-            "layout": "IPY_MODEL_c7a546f89b9941878f452340b7717baf"
-          }
-        },
-        "239c8e6712d149cfaa6f0ce450a0f9c9": {
-          "model_module": "@jupyter-widgets/controls",
-          "model_name": "HTMLModel",
-          "state": {
-            "_view_name": "HTMLView",
-            "style": "IPY_MODEL_df3c8c666fe1410cab2b2734c619e7a0",
-            "_dom_classes": [],
-            "description": "",
-            "_model_name": "HTMLModel",
-            "placeholder": "​",
-            "_view_module": "@jupyter-widgets/controls",
-            "_model_module_version": "1.5.0",
-            "value": " 50/50 [28:37&lt;00:00, 34.36s/it, loss=0.0103]",
-            "_view_count": null,
-            "_view_module_version": "1.5.0",
-            "description_tooltip": null,
-            "_model_module": "@jupyter-widgets/controls",
-            "layout": "IPY_MODEL_d42dc0fed0b7416b92ab0cd21fd98ff1"
-          }
-        },
-        "01a7d8fb972a446da32978918ca9caff": {
-          "model_module": "@jupyter-widgets/controls",
-          "model_name": "ProgressStyleModel",
-          "state": {
-            "_view_name": "StyleView",
-            "_model_name": "ProgressStyleModel",
-            "description_width": "initial",
-            "_view_module": "@jupyter-widgets/base",
-            "_model_module_version": "1.5.0",
-            "_view_count": null,
-            "_view_module_version": "1.2.0",
-            "bar_color": null,
-            "_model_module": "@jupyter-widgets/controls"
-          }
-        },
-        "c7a546f89b9941878f452340b7717baf": {
-          "model_module": "@jupyter-widgets/base",
-          "model_name": "LayoutModel",
-          "state": {
-            "_view_name": "LayoutView",
-            "grid_template_rows": null,
-            "right": null,
-            "justify_content": null,
-            "_view_module": "@jupyter-widgets/base",
-            "overflow": null,
-            "_model_module_version": "1.2.0",
-            "_view_count": null,
-            "flex_flow": null,
-            "width": null,
-            "min_width": null,
-            "border": null,
-            "align_items": null,
-            "bottom": null,
-            "_model_module": "@jupyter-widgets/base",
-            "top": null,
-            "grid_column": null,
-            "overflow_y": null,
-            "overflow_x": null,
-            "grid_auto_flow": null,
-            "grid_area": null,
-            "grid_template_columns": null,
-            "flex": null,
-            "_model_name": "LayoutModel",
-            "justify_items": null,
-            "grid_row": null,
-            "max_height": null,
-            "align_content": null,
-            "visibility": null,
-            "align_self": null,
-            "height": null,
-            "min_height": null,
-            "padding": null,
-            "grid_auto_rows": null,
-            "grid_gap": null,
-            "max_width": null,
-            "order": null,
-            "_view_module_version": "1.2.0",
-            "grid_template_areas": null,
-            "object_position": null,
-            "object_fit": null,
-            "grid_auto_columns": null,
-            "margin": null,
-            "display": null,
-            "left": null
-          }
-        },
-        "df3c8c666fe1410cab2b2734c619e7a0": {
-          "model_module": "@jupyter-widgets/controls",
-          "model_name": "DescriptionStyleModel",
-          "state": {
-            "_view_name": "StyleView",
-            "_model_name": "DescriptionStyleModel",
-            "description_width": "",
-            "_view_module": "@jupyter-widgets/base",
-            "_model_module_version": "1.5.0",
-            "_view_count": null,
-            "_view_module_version": "1.2.0",
-            "_model_module": "@jupyter-widgets/controls"
-          }
-        },
-        "d42dc0fed0b7416b92ab0cd21fd98ff1": {
-          "model_module": "@jupyter-widgets/base",
-          "model_name": "LayoutModel",
-          "state": {
-            "_view_name": "LayoutView",
-            "grid_template_rows": null,
-            "right": null,
-            "justify_content": null,
-            "_view_module": "@jupyter-widgets/base",
-            "overflow": null,
-            "_model_module_version": "1.2.0",
-            "_view_count": null,
-            "flex_flow": null,
-            "width": null,
-            "min_width": null,
-            "border": null,
-            "align_items": null,
-            "bottom": null,
-            "_model_module": "@jupyter-widgets/base",
-            "top": null,
-            "grid_column": null,
-            "overflow_y": null,
-            "overflow_x": null,
-            "grid_auto_flow": null,
-            "grid_area": null,
-            "grid_template_columns": null,
-            "flex": null,
-            "_model_name": "LayoutModel",
-            "justify_items": null,
-            "grid_row": null,
-            "max_height": null,
-            "align_content": null,
-            "visibility": null,
-            "align_self": null,
-            "height": null,
-            "min_height": null,
-            "padding": null,
-            "grid_auto_rows": null,
-            "grid_gap": null,
-            "max_width": null,
-            "order": null,
-            "_view_module_version": "1.2.0",
-            "grid_template_areas": null,
-            "object_position": null,
-            "object_fit": null,
-            "grid_auto_columns": null,
-            "margin": null,
-            "display": null,
-            "left": null
-          }
-        }
-      }
-    }
-  },
-  "cells": [
-    {
-      "cell_type": "markdown",
-      "metadata": {
-        "id": "gmOLZMTok7Gb"
-      },
-
-
-
 -- DATA CLEANING 
 
 SELECT * 
@@ -281,14 +8,14 @@ SELECT *
 FROM audibledata
 ;
 
--- Create staging table to reduce risk of losing data
+-- Create a staging table to reduce the risk of losing data
 CREATE TABLE audible_staging3 
 LIKE audibledata;
 
 SELECT * 
 FROM audible_staging3;
 
--- Insert original data into staging table
+-- Insert original data into the staging table
 INSERT audible_staging3
 SELECT *
 FROM audibledata;
@@ -308,10 +35,10 @@ SELECT sum(duplicated(audibledata))
 FROM audible_staging2
 ;
 
--- STANDARDIZE DATA
+-- STANDARDIZE DATA --------------------------------------------------------------------------------------------------------
 
 
--- Remove Writtenby: and Narratedby: from the author and narrator collumns
+-- Remove Writtenby: and Narratedby: from the author and narrator columns
 SELECT REPLACE(author, 'Writtenby:', '') AS author_trimmed
 FROM audible_staging3;
 
@@ -453,7 +180,7 @@ MODIFY COLUMN price DECIMAL(10,2);
 UPDATE audible_staging3
 SET price = ROUND(price, 2);
 
--- Remove stars column now that values have been appropriately separated into their own collumns
+-- Remove stars column now that values have been appropriately separated into their own columns
 ALTER TABLE audible_staging3
 DROP COLUMN stars
 ;
@@ -463,7 +190,7 @@ FROM audible_staging3;
 
 
 
--- EXPLORATORY ANALYSIS-----------------------------------------
+-- EXPLORATORY ANALYSIS-------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
