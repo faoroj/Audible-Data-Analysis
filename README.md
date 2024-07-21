@@ -26,15 +26,6 @@ The focus of this project is to delve into the trends and dynamics of Audible au
     ├── src            <- Folder containing the final SQL code of this project.
     │   │
     │   └── AudibleData_Project.sql   <- Final SQL code for cleaning & EDA
-    │          
-    │   
-    ├── Visualizations               <- Visualization images for this project.
-        │
-        ├── data           <- Datasets used and collected for this project.
-        │   
-        ├── pizza_sales_images       <- Additional images for Dashboards.
-        │
-        ├── data_dictionary.csv      <- Data Dictionary for the dataset.
 
 
 ## Data Cleaning and Preprocessing
