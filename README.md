@@ -11,7 +11,7 @@ Welcome to my Audible Audiobook Trends Portfolio Project! In this project, I ana
 
 ### **Project Scope**
 
-The focus of this project is to delve into the trends and dynamics of Audible audiobooks over time. By examining various aspects such as popular audiobooks, notable authors, pricing patterns, and user ratings, I aim to provide in-depth insights into the audiobook market. This analysis will shed light on the factors influencing audiobooks' success and listeners' evolving preferences. 
+The focus of this project is to delve into the trends and dynamics of Audible audiobooks over time. By examining various aspects such as popular audiobooks, notable authors, pricing patterns, and user ratings, I aim to provide in-depth insights into the audiobook market. This analysis will highlight the factors influencing audiobooks' success and listeners' evolving preferences. 
 
 
 ## Project Structure
@@ -35,12 +35,7 @@ Before beginning exploration, I cleaned and preprocessed the data, addressing mi
 
 ## Exploratory Data Analysis (EDA)
 
-EDA is an essential step in uncovering patterns and relationships within the data. I reveal significant trends and correlations through visualizations and statistical summaries, offering a comprehensive understanding of the audiobook market overtime.
-
-
-## Insights and Conclusions
-
-Based on the findings from the analysis, I present a series of critical insights and conclusions. These conclusions are designed to offer a deeper understanding of the international debt scenario and its implications for various stakeholders.
+EDA is an essential step in uncovering patterns and relationships within the data. I reveal significant trends and correlations through visualizations and statistical summaries, offering a comprehensive understanding of the audiobook market over time.
 
 
 ## Key Questions Explored
@@ -58,4 +53,4 @@ Based on the findings from the analysis, I present a series of critical insights
 
 
 ## Contact me!
-If you have any questions or suggestions, you can reach out to me at [Jordon Faoro](mailto:jfaoro15@gmail.com). I would love to hear from you!
+If you have any questions or suggestions, contact me at [Jordon Faoro](mailto:jfaoro15@gmail.com). I would love to hear from you!
