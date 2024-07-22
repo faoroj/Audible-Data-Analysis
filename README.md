@@ -40,10 +40,11 @@ EDA is an essential step in uncovering patterns and relationships within the dat
 
 ## Key Questions Explored
 
-1. **TWho do we owe all this money to?**
-2. **Can a debt load of three times GDP ever be sustainable?**
-3. **Is ther any responsible way to reduce this debt?**
-4. **What could go wrong if we can't**
+1. **Which author profited the most overall?**
+2. **Is there a relationship between the length of an audiobook and its price?**
+3. **How has revenue changed over time for the highest profiting authors such as JK Rowling?**
+4. **What were the average lengths and prices of the audiobooks?**
+5. **What % of audiobooks were in each language?**
 
 
 ## Author
