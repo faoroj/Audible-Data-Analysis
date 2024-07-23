@@ -44,7 +44,7 @@ EDA is an essential step in uncovering patterns and relationships within the dat
 2. **Is there a relationship between the length of an audiobook and its price?**
 3. **How has revenue changed over time for the highest profiting authors such as JK Rowling?**
 4. **What were the average lengths and prices of the audiobooks?**
-5. **What % of audiobooks were in each language?**
+5. **What percent of audiobooks were in each language?**
 
 
 ## Author
